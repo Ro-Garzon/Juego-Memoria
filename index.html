@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset para limpiar css.css">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Juego de memoria</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <section class="section section1">  
+                <table>
+                    <tr>
+                        <td><button class="btn" id="0" onclick="mostrar(0)"></button></td>
+                        <td><button class="btn" id="1" onclick="mostrar(1)"></button></td>
+                        <td><button class="btn" id="2" onclick="mostrar(2)"></button></td>
+                        <td><button class="btn" id="3" onclick="mostrar(3)"></button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn" id="4" onclick="mostrar(4)"></button></td>
+                        <td><button class="btn" id="5" onclick="mostrar(5)"></button></td>
+                        <td><button class="btn" id="6" onclick="mostrar(6)"></button></td>
+                        <td><button class="btn" id="7" onclick="mostrar(7)"></button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn" id="8" onclick="mostrar(8)"></button></td>
+                        <td><button class="btn" id="9" onclick="mostrar(9)"></button></td>
+                        <td><button class="btn" id="10" onclick="mostrar(10)"></button></td>
+                        <td><button class="btn" id="11" onclick="mostrar(11)"></button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn" id="12" onclick="mostrar(12)"></button></td>
+                        <td><button class="btn" id="13" onclick="mostrar(13)"></button></td>
+                        <td><button class="btn" id="14" onclick="mostrar(14)"></button></td>
+                        <td><button class="btn" id="15" onclick="mostrar(15)"></button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn" id="16" onclick="mostrar(16)"></button></td>
+                        <td><button class="btn" id="17" onclick="mostrar(17)"></button></td>
+                        <td><button class="btn" id="18" onclick="mostrar(18)"></button></td>
+                        <td><button class="btn" id="19" onclick="mostrar(19)"></button></td>
+                    </tr>
+            
+    
+                </table>
+    
+            </section>
+    
+            <section class="section section2">
+                <h1 id="title" class="title">Juego de Memoria</h1>
+                <h2 id="match" class="statistics">Aciertos: 0</h2>
+                <h2 id="time" class="statistics">Tiempo: 0 segundos</h2>
+                <h2 id="mov" class="statistics">Movimientos: 0</h2>
+                <button class="btn-reinicio" onclick="reiniciarJuego()">Volver a Jugar!</button>
+            </section>
+        </div>
+        
+    </main>
+
+    <footer class="footer">
+        <a href="https://www.linkedin.com/in/ro-garzon/" target="_blank"><img class="contact" src="./imagenes/linkedin.png" alt=""></a>
+        <a href="https://github.com/Ro-Garzon" target="_blank"><img class="contact" src="./imagenes/github.png" alt=""></a>
+        <p class="information">Juego desarrollado por Romina Garzón</p>
+        <a class="information" href="https://www.flaticon.es/iconos" title="Iconos creados por Freepik - Flaticon">Iconos creados por Freepik - Flaticon</a>
+    </footer>
+<script src="main.js"></script>
+</body>
+
+</html>
