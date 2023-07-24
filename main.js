@@ -73,6 +73,8 @@ function mostrar(id){
                 clearInterval(tiempoJugada);
 
                 mostrarFelicitacion.innerHTML = `Felicidades!!!`;
+                mostrarFelicitacion.style.textShadow = "2px 2px 15px #00090d";
+                mostrarFelicitacion.style.letterSpacing = "0.5rem";
 
                 mostrarAciertos.innerHTML = `Completaste el juego`;
                 mostrarTiempo.innerHTML= `Tu tiempo fue de ${tiempo} segundos`;
